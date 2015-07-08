@@ -35,6 +35,7 @@
 //
 //  Centrality binning:
 //     Bin       Centrality (16)   Centrality (9)
+//     -1           80-100%           80-100% // this one should be rejected in your centrality related analysis
 //     0            75-80%            70-80%
 //     1            70-75%            60-70%
 //     2            65-70%            50-60%
