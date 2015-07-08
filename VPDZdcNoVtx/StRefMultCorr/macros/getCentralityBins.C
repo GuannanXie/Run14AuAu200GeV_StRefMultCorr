@@ -115,7 +115,7 @@ void getCentralityBins()
 
   // scale factor test
   // *****************************************************************************************************************************************
-  // Actually you don't need it for Vpd30 and VpdNoVtx, but for easy,just copy these lines to youe macros, and in the StRefmult we already comment these factor in StRefmult Line 482
+  // Actually you don't need it for Run14 Vpd30 and VpdNoVtx, but for easy,just copy these lines to youe macros, and in the StRefmult we already comment these factor in StRefmult Line 482
   grefmultCorrUtil->setVzForWeight(6, -100.0, 100.0);
   grefmultCorrUtil->readScaleForWeight("StRoot/StRefMultCorr/macros/weight_grefmult_vpd30_vpd5_Run14.txt");
   for(Int_t i=0;i<6;i++){

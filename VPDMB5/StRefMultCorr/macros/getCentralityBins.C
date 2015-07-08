@@ -114,6 +114,7 @@ void getCentralityBins()
 //  grefmultCorrUtil->print();
 
   // scale factor test
+  // This factor is needed for Run14 VPDMB5
   grefmultCorrUtil->setVzForWeight(6, -6.0, 6.0);
   grefmultCorrUtil->readScaleForWeight("StRoot/StRefMultCorr/macros/weight_grefmult_vpd30_vpd5_Run14.txt");
   for(Int_t i=0;i<6;i++){
