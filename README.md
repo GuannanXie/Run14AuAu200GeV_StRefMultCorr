@@ -6,7 +6,7 @@ RHIC year 2014 Run, with Heavy Flavor Tracker
 This code was original inherit form Hiroshi Masui And Dr. Alexander Schmah
 
 ###Code Authors:  
-Guannan Xie (guannanxie@lbl.gov)  
+[Guannan Xie](https://github.com/GuannanXie) (guannanxie@lbl.gov)  
 Hiroshi Masui (HMasui@lbl.gov)   
 Alexander Schmah(ASchmah@lbl.gov)   
 - - -
