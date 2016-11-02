@@ -24,19 +24,16 @@ Alexander Schmah(ASchmah@lbl.gov)
 
 - - -
 
-###How to use this code for SL15c (Not for SL16d):  
+###How to use this code for SL16d production:  
 ```bash
 # Load StRefMultCorr library
 # NOTE: Add this line in your 'macro', not in the source code
 gSystem->Load("StRefMultCorr");
 # For grefmult
-StRefMultCorr* grefmultCorrUtil = CentralityMaker::instance()->getgRefMultCorr() ;
+StRefMultCorr* grefmultCorrUtil = CentralityMaker::instance()->getgRefMultCorr_P16id() ;
 grefmultCorrUtil->init(15075008);
 grefmultCorrUtil->setVzForWeight(6, -6.0, 6.0);
-grefmultCorrUtil->readScaleForWeight("StRoot/StRefMultCorr/macros/weight_grefmult_vpd30_vpd5_Run14.txt");
-for(Int_t i=0;i<6;i++){
-cout << i << " " << grefmultCorrUtil->get(i, 0) << endl;
-}
+grefmultCorrUtil->readScaleForWeight("StRoot/StRefMultCorr/macros/weight_grefmult_vpd30_vpd5_Run14_P16id.txt");
 
 # NOTE: Add this line inside the source code
 grefmultCorrUtil->initEvent(grefmult, vz, zdcCoincidenceRate) ;
