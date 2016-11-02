@@ -9,6 +9,7 @@ All Rights Reserved
 
 ###Code Authors:  
 [Guannan Xie](https://github.com/GuannanXie) (guannanxie@lbl.gov)  
+Xiaolong Chen(xlchen@lbl.gov)   
 Hiroshi Masui (HMasui@lbl.gov)   
 Alexander Schmah(ASchmah@lbl.gov)   
 - - -
@@ -23,7 +24,7 @@ Alexander Schmah(ASchmah@lbl.gov)
 
 - - -
 
-###How to use this code:  
+###How to use this code for SL15c (Not for SL16d):  
 ```bash
 # Load StRefMultCorr library
 # NOTE: Add this line in your 'macro', not in the source code
