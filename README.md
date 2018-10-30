@@ -21,7 +21,7 @@ Alexander Schmah(ASchmah@lbl.gov)
 4. [Centrality for VPDMB30 and NoVtx](https://drupal.star.bnl.gov/STAR/system/files/2015May18_Run14_200GeV_Centrality_MTD.pdf), Guannan Xie
 5. [Centrality for VPDMB5 no protected](https://drupal.star.bnl.gov/STAR/system/files/2015Jan2_Run14_200GeV_VPDMB5_np_Centrality.pdf), Guannan Xie
 6. [Centrality for SL16d](https://drupal.star.bnl.gov/STAR/system/files/cent_VPDMB30_and_noVtx_0.pdf), Xiaolong Chen
-
+7. [Centrality_for run16](https://drupal.star.bnl.gov/STAR/system/files/Run16_centralityDef.pdf), Xiaolong Chen
 - - -
 
 ###How to use this code for SL16d production:  
