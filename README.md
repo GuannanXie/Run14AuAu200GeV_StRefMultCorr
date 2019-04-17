@@ -1,6 +1,6 @@
 # Run14AuAu200GeV_StRefMultCorr
 LBNL - STAR Experiment, Relativistic Heavy Ion Collider (RHIC), BNL  
-RHIC year 2014 Run, with Heavy Flavor Tracker
+RHIC  year 2014 Run, with Heavy Flavor Tracker
 
 ## Declaration
 This code was original inherit form Hiroshi Masui And Dr. Alexander Schmah
